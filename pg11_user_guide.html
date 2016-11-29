@@ -1,0 +1,138 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <title>Team A Report</title>
+  
+  <!--main stylesheet-->
+  <link rel="stylesheet" href="css/vizpjt_main.css" type = "text/css"> <!--main style sheet to be customized-->
+    <link href="css/simple-line-icons.css" rel="stylesheet" type="text/css">
+
+  </head>
+  
+  <body>
+
+     
+    <!--templater header-->
+    <div w3-include-html="template_header.html"></div> 
+    
+    <nav role = "top_navbar">
+      <ul class = "topnav">
+            <li><a href="index.html">Introduction</a></li>
+            <li><a href="pg2_motivation.html">Motivation</a></li>
+            <li><a href="pg3_research_work.html">Research Work</a></li>
+            <li><a href="pg4_design_concept.html">Design & Concept</a></li>
+            <li><a href="pg5_demo.html">Demo</a></li>
+            <li><a href="pg6_discussion.html">Discussion</a></li>
+            <li><a href="pg7_futurework.html">Future Work</a></li>
+            <li><a href="pg8_credits.html">Credits</a></li>
+            <li><a href="pg9_installation_guide.html">Installation Guide</a></li>
+      </ul>
+    </nav>
+    
+    <!--template left nav bar -->
+    <div w3-include-html="template_leftnavbar3.html"></div> 
+    
+    <!-- the body of the content-->
+    <div class = "mainbody_content">
+      
+      <!--slideshow-->
+      
+              <div class="slideshow-container" style = "width = 80%">
+              
+              <div class="mySlides fade">
+              
+              <!--
+              <div class="nav_slide_prev" style="height: 1000px  display: block  float:left; ">
+                  <a class="prev" onclick="plusSlides(-1)"><p> <font size = 20 font color = grey> < </font> </p></a>
+              </div>
+              -->  
+                  <div class="numbertext">1 / 4</div>
+                  
+                          <div class = "content_slide" style="margin-top:1%;">
+
+                         <p>User Guide Version 1.0 Updated on 28Nov16-530PM</p>
+                         <img src="data/userguide_1.png" alt="SMU Logo" style="width:700px;margin-top:3%; margin-left:10%;">
+                      
+                          </div>
+                            
+                      <div class="nav_slide_nex" style="height: 1000px  display: block float:left">
+                      
+                      <a class="next" onclick="plusSlides(1)"><p> <font size = 20 font color = grey> > </font></p> </a></div>
+              </div>                                                              
+              
+                <div class="mySlides fade">
+                
+                    <div class="nav_slide_prev" style="height: 1000px  display: block  float:left; ">
+                      <a class="prev" onclick="plusSlides(-1)"><p> <font size = 20 font color = grey> < </font> </p></a>
+                    </div>
+                
+                   <div class="numbertext">2 / 4</div>
+                          <div class = "content_slide">  
+                          
+                         <img src="data/userguide_2.png" alt="SMU Logo" style="width:700px; height: 320px; margin-top:5%; margin-left:10%;">
+                      
+                          </div>
+
+                            
+                      <div class="nav_slide_nex" style="height: 1000px  display: block">
+                      
+                      <a class="next" onclick="plusSlides(1)"><p> <font size = 20 font color = grey> > </font> </p> </a></div>
+              </div>
+              
+                <div class="mySlides fade">
+                
+                    <div class="nav_slide_prev" style="height: 1000px  display: block  float:left; ">
+                      <a class="prev" onclick="plusSlides(-1)"><p> <font size = 20 font color = grey> < </font> </p></a>
+                    </div>
+                
+                   <div class="numbertext">3 / 4</div>
+                   <div class = "content_slide">  
+                          
+                         <img src="data/userguide_3.png" alt="SMU Logo" style="width:700px; margin-top:5%; margin-left:10%;">
+                      
+                   </div>
+                    </div>
+                            
+                      <div class="nav_slide_nex" style="height: 1000px  display: block">
+                      
+                      <a class="next" onclick="plusSlides(1)"><p> <font size = 20 font color = grey> > </font></p> </a></div>
+           
+
+                <div class="mySlides fade">
+                
+                
+                    <div class="nav_slide_prev" style="height: 1000px  display: block  float:left; ">
+                      <a class="prev" onclick="plusSlides(-1)"><p> <font size = 20 font color = grey> < </font> </p></a>
+                    </div>
+                 
+                   <div class="numbertext">4 / 4</div>
+                       <div class = "content_slide">  
+                      <img src="data/userguide_4.png" alt="SMU Logo" style="width:700px; margin-top:5%; margin-left:10%;">
+                      
+                   </div>
+                    </div>
+
+              </div>             
+              </div>
+              <br>
+              
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                <span class="dot" onclick="currentSlide(4)"></span> 
+              </div>    
+    
+    <!--slideshow-->
+    </div>
+    
+<!--load JS-->
+  <script src = "js/w3data.js"></script>
+        
+    <script>
+    w3IncludeHTML();
+    </script>
+  <script src = "js/vizpjt_main.js"></script>
+      
+  </body>
+</html>
